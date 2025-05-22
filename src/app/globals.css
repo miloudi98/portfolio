@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+  --nav-bar-height: 3.75rem;
+
+  --dark-0-rgb: rgb(8, 15, 17);
+  --dark-600-rgb: rgb(126, 131, 133);
+  --dark-800-rgb: rgb(200, 200, 200);
+
+  --green-800-rgb: rgb(72, 213, 151);
+}
+
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  background: var(--dark-0-rgb);
+  font-family: "Fira Code", monospace;
+}

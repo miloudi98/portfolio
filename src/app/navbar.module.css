@@ -1,0 +1,25 @@
+.navbar {
+  height: var(--nav-bar-height);
+  width: 100%;
+
+  color: var(--dark-600-rgb);
+
+  border-bottom: 1px solid var(--dark-600-rgb);
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar > ul {
+  list-style-type: none;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.navbar > ul > li > a {
+  color: var(--green-800-rgb);
+  text-decoration: none;
+}
