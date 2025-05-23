@@ -17,13 +17,13 @@ export default function AboutMe() {
       </p>
 
       <h3>Work</h3>
-        <p>
+      <p>
         I am not very experienced in user interface design, but I am slowly learning.
         <br/> <br/>
         I am currently taking a user interface design course at the university of Ottawa. I also try to learn from other resources as well.
         <br/> <br/>
-        Relevant links: <a href="https://catalogue.uottawa.ca/en/courses/seg/">SEG3125</a> and <a href="https://www.nngroup.com/"> NNGroup </a>
-        </p>
+        Relevant links: <a className={styles.link} href="https://catalogue.uottawa.ca/en/courses/seg/">SEG3125</a> and <a className={styles.link} href="https://www.nngroup.com/"> NNGroup </a>
+      </p>
         
       <h3>Projects</h3>
 

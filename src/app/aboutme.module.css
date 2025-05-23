@@ -10,8 +10,16 @@
 
 .container > p {
   margin-top: 2rem;
-  color: white;
+  color: #ffffff;
   width: 40vw;
+}
+
+.link {
+  color: var(--green-800-rgb);
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .projects {
@@ -53,5 +61,5 @@
 .project_description {
   padding: 1rem;
   font-size: 13px;
-  color: white;
+  color: #ffffff;
 }
