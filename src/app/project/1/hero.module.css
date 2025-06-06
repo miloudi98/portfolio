@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+.hero {
+  margin-top: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+
+  width: 80vw;
+  height: auto;
+
+  display: flex;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  user-select: none;
+
+  justify-content: space-between;
+
+  box-shadow: 10px 5px 5px gray;
+}
+
+.hero > img {
+  border-radius: 20px;
+  margin-left: 2vw;
+}
+
+.description  > span.title {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.description > span.details {
+  margin-top: 1rem;
+  display: block;
+}
+
+.direction {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.opentimes {
+  display: flex;
+  align-items: center;
+}
+
+.opentimes > ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > a {
+  margin-top: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.browsebikesbutton {
+  padding: 1rem;
+
+  cursor: pointer;
+
+  font-family: "Agbalumo", system-ui;
+}

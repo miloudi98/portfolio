@@ -1,5 +1,11 @@
+import Nav from "./nav.js";
+import Hero from "./hero.js";
+
 export default function ProjectOne() {
   return (
-    <h1> Comming Soon...</h1>
+    <>
+      <Nav />
+      <Hero />
+    </>
   );
 }

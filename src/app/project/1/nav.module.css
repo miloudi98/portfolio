@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+.mainlogo {
+  user-select: none;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo > span {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.menu {
+  border: 1px solid black;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.menu > ul > a {
+  text-decoration: none;
+
+  border-right: 1px solid black;
+
+  padding: 1rem;
+
+  color: black;
+
+  transition: background-color 0.2s ease-out;
+}
+
+.menu > ul > a:last-child {
+  border: 0;
+}
+
+.menu > ul > a > li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.menu > ul > a:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.menu > ul > a:first-child {
+  width: 10vw;
+  background-color: transparent;
+}
+
