@@ -29,7 +29,7 @@ export default function AboutMe() {
 
       <div className={styles.projects}>
 
-        <a href="/project/1">
+        <a href="/bikeshop">
           <img
             src="/microprocessor.png"
             alt="Microprocessor"
