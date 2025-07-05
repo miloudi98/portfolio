@@ -40,43 +40,43 @@ export default function AboutMe() {
           </p>
 
           <p className={styles.project_description}>
-            Service site. 
+            Bikeshop platform.
             <br/>
-            The full description will be available at a later date.
+            Allows users to buy/repair bikes or even book appointments with specialists.
           </p>
         </a>
 
-        <a href="/project/2">
+        <a href="/memoize">
           <img
-            src="/stars.png"
-            alt="Microprocessor"
+            src="/cube.png"
+            alt="Cube"
           />
 
           <p className={styles.project_title}>
-            Design #2
+            Memoize
           </p>
 
           <p className={styles.project_description}>
-            Game.
+            Memory game website.
             <br/>
-            The full description will be available at a later date.
+            Fun memory game that challenges your memory.
           </p>
         </a>
 
-        <a href="/project/3">
+        <a href="/pcbuilder">
           <img
             src="/forest.png"
             alt="Microprocessor"
           />
 
           <p className={styles.project_title}>
-            Design #3
+            PCBuilder
           </p>
 
           <p className={styles.project_description}>
             E-commerce site.
             <br/>
-            The full description will be available at a later date.
+            E-commerce platform for selling pc parts.
           </p>
         </a>
 
