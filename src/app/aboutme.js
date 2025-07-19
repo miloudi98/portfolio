@@ -80,7 +80,7 @@ export default function AboutMe() {
           </p>
         </a>
 
-        <a href="/project/4">
+        <a href="/dash">
           <img
             src="/tunnel.png"
             alt="Microprocessor"
