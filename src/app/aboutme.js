@@ -31,16 +31,17 @@ export default function AboutMe() {
 
         <a href="/bikeshop">
           <img
-            src="/microprocessor.png"
-            alt="Microprocessor"
+            src="/seg3125-a1-screenshot.png"
+            alt="Screenshot of assignment 1"
           />
 
           <p className={styles.project_title}>
-            Design #1
+            BikeShop
           </p>
 
           <p className={styles.project_description}>
             Bikeshop platform.
+            <br/>
             <br/>
             Allows users to buy/repair bikes or even book appointments with specialists.
           </p>
@@ -48,8 +49,8 @@ export default function AboutMe() {
 
         <a href="/memoize">
           <img
-            src="/cube.png"
-            alt="Cube"
+            src="/seg3125-a2-screenshot.png"
+            alt="Screenshot of assignment 2"
           />
 
           <p className={styles.project_title}>
@@ -59,14 +60,15 @@ export default function AboutMe() {
           <p className={styles.project_description}>
             Memory game website.
             <br/>
+            <br/>
             Fun memory game that challenges your memory.
           </p>
         </a>
 
         <a href="/pcbuilder">
           <img
-            src="/forest.png"
-            alt="Microprocessor"
+            src="/seg3125-a3-screenshot.png"
+            alt="Screenshot of assignment 3"
           />
 
           <p className={styles.project_title}>
@@ -76,24 +78,26 @@ export default function AboutMe() {
           <p className={styles.project_description}>
             E-commerce site.
             <br/>
-            E-commerce platform for selling pc parts.
+            <br/>
+            E-commerce platform for selling pc components.
           </p>
         </a>
 
         <a href="/dash">
           <img
-            src="/tunnel.png"
-            alt="Microprocessor"
+            src="/seg3125-a4-screenshot.png"
+            alt="Screenshot of assignment 4"
           />
 
           <p className={styles.project_title}>
-            Design #4
+            Dash
           </p>
 
           <p className={styles.project_description}>
-            Analytics site + final portfolio.
+            Analytics platform.
             <br/>
-            The full description will be available at a later date.
+            <br/>
+            Interactive study of the titanic disaster.
           </p>
         </a>
 
